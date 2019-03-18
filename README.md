@@ -21,10 +21,10 @@ Saving Drivers in a HashSet - Helps us check for duplicates if any in the file.
 
 Saving Driver_Trips in a HashMap of driver's name as key and ArrayList of Trips as value. Helps us group Trips related to a particular driver together.
 
-Saving DriverStats in an TreeMap(maintians sort order using comparator example:MilesComparator.java). Driverstats contains the stats required for printing the final processing for each individual driver.
+Saving DriverStatsView in an TreeMap(maintians sort order using comparator example:MilesComparator.java). DriverStatsView contains the stats required for printing the final processing for each individual driver.
 
 So, if the requirements change and if I need to print by ascending order all we have to do is to write a new comparator. 
-If the view changed completely they we might have to write a new view similar to DriverStats.
+If the view changed completely they we might have to write a new class similar to DriverStats.
 
 Entrypoint
 ----------
